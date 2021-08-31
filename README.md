@@ -19,3 +19,7 @@ https://www.travel-advisory.info/
 
 There are no free APIs available at the time of submitting this concept. 
 APIs must be sourced directly from content providers so that relevant information can be integrated directly into chat flow.
+
+### Note
+Sadly the web demo only supports plain text responses, so adding an clickable url within chatbot for the webdemo won't work. 
+Luckily, this is a limitation for web demo alone, other integrations that support URL's in chats will work on click.
