@@ -10,6 +10,12 @@ The IDEA is to have a simple ChatBot application stitching data points together 
 
 Link to Mockup: https://drive.google.com/file/d/1L0bzK1-llrjCEdyuNdWTYnp26az_8k53/view?usp=sharing
 
+### How to use
+
+- Create a new agent in Dialogflow CX following the steps [here](https://cloud.google.com/dialogflow/cx/docs/quick/build-agent#create-agent)
+- To use this SafeTravel bot, import the file [exported_agent_SafeTravel2.blob](../blob/main/exported_agent_SafeTravel2.blob) to the created agent following these [steps](https://cloud.google.com/dialogflow/cx/docs/quick/build-agent#optional_agent_import)
+- Try out the flow by clicking on **Test Agent** button on the top right of screen. Once the window opens, say "Hi" or "Hello"
+
 ### Data source
 https://www.iatatravelcentre.com/   
 https://www.unwto.org/unwto-iata-destination-tracker   
