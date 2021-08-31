@@ -1,0 +1,73 @@
+<html>
+<body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+ chat-title="Testing static welcome"
+ agent-id="YOUR_AGENT_ID"
+ language-code="en"
+></df-messenger>
+<script>
+   window.addEventListener('dfMessengerLoaded', function () {
+       // Here you can use any suitable way to get element. Tag/class/id/etc.
+       var messenger = document.querySelector('df-messenger');
+ 
+       //These will render custom text message and custom card, as if they were served from Dialogflow as simple text response and card response
+       messenger.renderCustomText('Hello, this is Test bot for static welcome. What can I help you with?');
+       messenger.renderCustomCard([{ type: 'info', title: 'Some title', subtitle: 'some subtitle' }, { type: 'description', text: ['test'] }]);
+ 
+       // This will show a mini version of messages list with the very first message
+       messenger.showMinChat();
+   });
+</script>
+<script>
+   const dfm = document.querySelector('df-messenger');
+   dfm.addEventListener('df-messenger-error', function (event) {
+       console.log('There was an error with the request!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-request-sent', function (event) {
+       console.log('A new request has been sent!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-response-received', function (event) {
+       console.log('Response has been provided!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-user-input-entered', function (event) {
+       console.log('User provided a new input!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-info-card-clicked', function (event) {
+       console.log('Information title from the info response has been clicked!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-button-clicked', function (event) {
+       console.log('Button has been clicked!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-list-element-clicked', function (event) {
+       console.log('List element has been clicked!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-chip-clicked', function (event) {
+       console.log('Chip has been clicked!');
+       console.log(event);
+   });
+   dfm.addEventListener('df-accordion-clicked', function (event) {
+       console.log('Accordion has been clicked!');
+       console.log(event);
+   });
+</script>
+<style>
+   df-messenger {
+       --df-messenger-bot-message: #0aa6fa;
+       --df-messenger-button-titlebar-color: #0aa6fa;
+       --df-messenger-chat-background-color: #fafafa;
+       --df-messenger-input-font-color: black;
+       --df-messenger-font-color: white;
+       --df-messenger-send-icon: #0aa6fa;
+       --df-messenger-user-message: #fc9700;
+   }
+</style>
+</body>
+</html>
