@@ -4,7 +4,7 @@
 
 As the world struggles to re-open allowing for safe cross border travel, the challenge is to keep up and stay up-to-date with the latest in Travel advisory & Restrictions.
 
-Covid-19 specific information especially Vaccination, Health & Quarantine conditions are paramount for any Travel to take place. The information has been standardised up to an extent but still exists in silos. Apparently not ALL relevant information is accessible from one place.
+Covid-19 specific information especially Vaccination, Health & Quarantine conditions are paramount for any Travel to take place. Though the information has been standardised up to an extent, but still exists in silos. All relevant information is NOT accessible from one place.
 
 ### Solution
 
@@ -16,7 +16,7 @@ Link to Mockup: https://drive.google.com/file/d/1L0bzK1-llrjCEdyuNdWTYnp26az_8k5
 
 - Create a new agent in Dialogflow CX following the steps [here](https://cloud.google.com/dialogflow/cx/docs/quick/build-agent#create-agent)
 - To use this SafeTravel bot, import the file [exported_agent_SafeTravel2.blob](../main/exported_agent_SafeTravel2.blob) to the created agent following these [steps](https://cloud.google.com/dialogflow/cx/docs/quick/build-agent#optional_agent_import)
-- Try out the flow by clicking on **Test Agent** button on the top right of screen. Once the window opens, say "Hi" or "Hello"
+- Try out the flow by clicking on **Test Agent** button on the top right of screen. Once the window opens, say "Hi" or "Hello" (also refer Note)
 
 ### Data source
 
