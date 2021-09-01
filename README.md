@@ -9,6 +9,8 @@ Covid-19 specific information especially Vaccination, Health & Quarantine condit
 ### Solution
 
 The IDEA is to have a simple ChatBot application stitching data points together for Travellers and Travel planners to access content easily.
+a. Get Covid19 related rules & Travel advisory
+b. General Country specific norms & requirements for Travel  
 
 Link to Mockup: https://drive.google.com/file/d/1L0bzK1-llrjCEdyuNdWTYnp26az_8k53/view?usp=sharing
 
@@ -20,9 +22,9 @@ Link to Mockup: https://drive.google.com/file/d/1L0bzK1-llrjCEdyuNdWTYnp26az_8k5
 
 ### Data source
 
+https://www.travel-advisory.info/
 https://www.iatatravelcentre.com/  
 https://www.unwto.org/unwto-iata-destination-tracker  
-https://www.travel-advisory.info/
 
 ### Disclaimer
 
@@ -32,4 +34,4 @@ APIs must be sourced directly from content providers so that relevant informatio
 ### Note
 
 Sadly the web demo only supports plain text responses, so adding an clickable url within chatbot for the webdemo won't work.
-Luckily, this is a limitation for web demo alone, other integrations that support URL's in chats will work on click.
+Luckily, this is a limitation for web demo alone, other integrations that support URL's in chats should work on click.
