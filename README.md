@@ -11,6 +11,7 @@ Covid-19 specific information especially Vaccination, Health & Quarantine condit
 The IDEA is to have a simple ChatBot application stitching data points together for Travellers and Travel planners to access content easily.
 
 a. Get Covid19 related rules & Travel advisory
+
 b. General Country specific norms & requirements for Travel  
 
 Link to Mockup: https://drive.google.com/file/d/1L0bzK1-llrjCEdyuNdWTYnp26az_8k53/view?usp=sharing
