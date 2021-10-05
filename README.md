@@ -37,5 +37,5 @@ APIs must be sourced directly from content providers so that relevant informatio
 
 ### Note
 
-Sadly the web demo only supports plain text responses, so adding an clickable url within chatbot for the webdemo won't work.
+The web demo only supports plain text responses, so adding an clickable url within chatbot for the webdemo won't work.
 Luckily, this is a limitation for web demo alone, other integrations that support URL's in chats should work on click.
